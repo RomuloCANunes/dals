@@ -1,5 +1,5 @@
 /*
- * This file is part of DALS - Distributed Artificial Life Simulator.
+ * This file is part of DALS - Distributed Artificial Life Simulation.
  * DALS is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -15,14 +15,9 @@
  */
 package genetic;
 
-import genetic.components.Individual;
-import genetic.net.XMPPConnectionHandler;
 import genetic.util.Configuration;
 import genetic.view.EnvironmentOverview;
 import genetic.view.Simulation;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import org.jivesoftware.smack.XMPPException;
 
 /**
  * Class for system initialization
